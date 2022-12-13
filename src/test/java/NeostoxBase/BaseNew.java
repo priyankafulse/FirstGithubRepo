@@ -15,6 +15,7 @@ public class BaseNew
    {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Dell 94\\Desktop\\Chromedriver\\chromedriver_win32 (1)\\chromedriver.exe");		
 		driver=new ChromeDriver();
+		
 		//driver.get(Utilitynew.readDataFromPropertyFile("url"));
 		driver.get(Utilitynew.readDataFromPropertyFile("url"));
         driver.manage().window().maximize();

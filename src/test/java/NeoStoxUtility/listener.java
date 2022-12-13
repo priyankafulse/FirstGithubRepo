@@ -18,6 +18,8 @@ public class listener extends BaseNew implements ITestListener
 		Reporter.log("TC " +MethodName + " is comleted succefully", true);	
 	}
 	
+	
+	
 	public void onTestFailure(ITestResult result) 
 	{
 		Reporter.log("TC "+result.getName()+ " is failed",true);
@@ -29,6 +31,8 @@ public class listener extends BaseNew implements ITestListener
 		e.printStackTrace();
 	    }
 	}
+	
+	
 	
 	public void onTestSkipped(ITestResult result)
 	{
