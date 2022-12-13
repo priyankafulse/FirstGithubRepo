@@ -1,6 +1,4 @@
 package NeostoxBase;
-
-
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
@@ -17,9 +15,13 @@ public class BaseNew
 		driver=new ChromeDriver();
 		
 		//driver.get(Utilitynew.readDataFromPropertyFile("url"));
+		
 		driver.get(Utilitynew.readDataFromPropertyFile("url"));
+		
         driver.manage().window().maximize();
+        
         Reporter.log("Launch the browser ", true);
+        
         Utilitynew.Wait(driver,2000);
    }
     public static void closingBrowser(WebDriver driver) throws  InterruptedException
