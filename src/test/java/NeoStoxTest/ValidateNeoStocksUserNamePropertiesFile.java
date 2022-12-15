@@ -42,6 +42,9 @@ public class ValidateNeoStocksUserNamePropertiesFile extends BaseNew
 		password.clickOnSubmitButton();
 		Thread.sleep(1000);
 		home.PopupHandle(driver);
+		
+		/////
+		
 	}
 	
     @Test
